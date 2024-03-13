@@ -148,7 +148,7 @@
     justify-content: center;
 }
 
-.recipes__videos-caption {
+.recipes__video-caption {
     display: flex;
     justify-content: space-between;
     font-family: "Inter";
@@ -157,4 +157,7 @@
     font-size: 20px;
     line-height: 30px;
     color: white;
+    margin-top: 24px;
+    margin-bottom: 215px;
+
 }
