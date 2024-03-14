@@ -52,7 +52,7 @@
     height: 39px;
 }
 
-.header__titile {
+.header__title {
     max-width: 729px;
     font-family: "Inter";
     font-style: normal;
@@ -160,5 +160,10 @@
     color: white;
     margin-top: 24px;
     margin-bottom: 215px;
+}
 
+.recipes__iframe {
+    max-width: 480px;
+    max-height: 273px;
+    border: none;
 }
