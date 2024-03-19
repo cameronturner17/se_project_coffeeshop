@@ -85,19 +85,19 @@
                         <fieldset class="form__fieldset">
                             <label for="name" class="form__label">
                                 Name *
-                                <input type="text" class="form__input" placeholder="Name Surname">
+                                <input type="text" class="form__input" id="name" placeholder="Name Surname" required>
                             </label>
                             <label for="number-of-guest" class="form__label">
                                 Number of guest *
-                                <input type="number" class="form__input" placeholder="1-8">
+                                <input type="number" class="form__input" id="guests" placeholder="1-8" required>
                             </label>
                             <label for="date-time" class="form__label">
                                 Date & time * 
-                                <input type="datetime-local" class="form__input">
+                                <input type="datetime-local" class="form__input" id="datetime-local" required>
                             </label>
                             <label for="email" class="form__label">
                                 Your email *
-                                <input type="email" class="form__input" placeholder="email@email.com">
+                                <input type="email" class="form__input" id="email" placeholder="email@email.com" required>
                             </label>
                         </fieldset>
                         <button class="form__button">Book a table</button>
