@@ -10,7 +10,10 @@
     background-image: url(../images/background_header.svg);
     background-size: cover;
     background-color: #ffffff;
+    background-position: center;
     position: relative;
+    box-sizing: border-box;
+    z-index: 1;
 }
 
     .header__title {
@@ -41,6 +44,7 @@
         height: 568px;
         right: 5px;
         top: 124px;
+        z-index: -1;
     }
     
     .header__span-accent {
@@ -63,9 +67,6 @@
         font-size: 16px;
         line-height: 20px;
         color: #838383;
-        left: 80px;
-        right: 80px;
-        bottom: 40px;
     }
     
     .header__paragraph {

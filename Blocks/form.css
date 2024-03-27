@@ -9,7 +9,7 @@
 }
 
 .form__label {
-    margin-bottom: 42px;
+    margin-bottom: 32px;
     display: block;
     font-family: Inter;
     font-style: normal;
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     gap: 12px;
+    margin-bottom: 0;
 }
 
 .form__input {
@@ -37,7 +38,7 @@
     margin-top: 8px;
     height: 60px;
     padding-left: 12px;
-    color: #838383;
+    border-color: #838383;
 }
 
 .form__button {
@@ -50,6 +51,8 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    border: none;
     background-color: #2f80ed;
     color: #ffffff;
+    cursor: pointer;
 }
